@@ -2,10 +2,10 @@
 #include <ESP8266WebServer.h>
 
 // WiFi Credentials
-const char* ssid = "FTTH-E109";
-const char* password = "123456789";
+const char* ssid = "YOUR WIFI NAME";
+const char* password = "YOUR WIFI PASSWORD";
 
-int IP1 =1;   
+int IP1 =1;   //Assign GOIO PINS
 int IP2 =3;    
 int IP3 =15;
 int IP4 =13;
@@ -72,6 +72,8 @@ void setup() {
   pinMode( IP2, OUTPUT);
   pinMode( IP3, OUTPUT);
   pinMode( IP4, OUTPUT);
+  
+  Serial.begin(115200);
 
 
   WiFi.begin(ssid, password);
