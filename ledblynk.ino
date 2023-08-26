@@ -13,8 +13,8 @@
 
 char auth[] = BLYNK_AUTH_TOKEN;
 // WiFi Credentials
-const char* ssid = "ESP8266";
-const char* password = "asdfghjkl";
+const char* ssid = "Enter your WIFI Name";
+const char* password = "Enter Your WIFI password";
 
 int ledpin = D2;
 void setup()
