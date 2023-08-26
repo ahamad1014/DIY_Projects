@@ -5,7 +5,7 @@
 #endif
 #include <Espalexa.h>
 
-#define RELAY 2  //D6 // define the GPIO connected with Relays
+#define RELAY 2  //D6
 
 
 // prototypes
