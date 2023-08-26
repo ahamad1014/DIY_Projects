@@ -4,8 +4,8 @@
 #include <ESP8266WiFi.h>
 #endif
 #include <Espalexa.h>
-// define the GPIO connected with Relays
-#define RELAY 2  //D6
+
+#define RELAY 2  //D6 // define the GPIO connected with Relays
 
 
 // prototypes
@@ -15,8 +15,8 @@ boolean connectWifi();
 void firstLightChanged(uint8_t brightness);
 
 // WiFi Credentials
-const char* ssid = "ESP8266";
-const char* password = "qwertyuiop";
+const char* ssid = "Enter your WIFI Name";
+const char* password = "Enter Your WIFI password";
 
 // device names
 String Device_1_Name = "SWITCH";
